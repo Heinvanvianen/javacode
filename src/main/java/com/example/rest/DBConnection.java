@@ -28,7 +28,7 @@ public class DBConnection {
     public void readData() throws Exception {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            connection = DriverManager.getConnection(140.86.15.104);
+            connection = DriverManager.getConnection(jdbcURL);
             statement = connection.createStatement();
             
             // sample SQL query
