@@ -32,7 +32,7 @@ public class DBConnection {
             statement = connection.createStatement();
             
             // sample SQL query
-            String sqlQuery = "select * from SecretTable;";
+            String sqlQuery = "select * from SecretTable";
             resultSet = statement.executeQuery(sqlQuery);
             getResultSet(resultSet);
         } finally{
