@@ -1,5 +1,5 @@
 /* Copyright © 2016 Oracle and/or its affiliates. All rights reserved. */
-// MrBergkamps microfighter!
+// HeinvanVianen microfighter!
 package com.example.rest;
 
 import java.util.Optional;
@@ -93,17 +93,3 @@ public class App {
         }
     }
 }
-
-
-Met vriendelijke groet /Kind regards,
-
-Martin van Dommelen
-Accenture
-Manager - Oracle Practice The Netherlands
-
-Mobile phone: +31 6 20202663
-Direct dial:        +31 20 5729940
-
-Stay connected with Accenture:      
-Before printing, think about the environment
-
