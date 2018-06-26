@@ -21,17 +21,18 @@ public class DBConnection {
         this.jdbcURL = jdbcURL;
     }
  
+ 
     /**
      * Sets up the connection to the database and executes a sample query.
      */
     public void readData() throws Exception {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            connection = DriverManager.getConnection(jdbcURL);
+            connection = DriverManager.getConnection(140.86.15.104);
             statement = connection.createStatement();
             
             // sample SQL query
-            String sqlQuery = "select * from SampleTable;";
+            String sqlQuery = "select * from SecretTable;";
             resultSet = statement.executeQuery(sqlQuery);
             getResultSet(resultSet);
         } finally{
